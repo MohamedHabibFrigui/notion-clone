@@ -103,7 +103,7 @@ const Toolbar = ({ initialData, preview }: ToolbarProps) => {
             </Button>
           </IconPicker>
         )}
-        {!initialData.converImage && !preview && (
+        {!initialData.coverImage && !preview && (
           <Button
             className="text-muted-foreground text-xs"
             variant="outline"
